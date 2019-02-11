@@ -1,4 +1,4 @@
-$LANGUAGE	Russian
+$LANGUAGE	Russian!
 $FORMNAME	ServerPropertiesProvider
 Please specify server IP adress or domain	Пожалуйста, укадите IP адрес сервера
 Please specify server PORT	Пожалуйста, укажите порт подключения к серверу
