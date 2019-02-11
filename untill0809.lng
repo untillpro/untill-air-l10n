@@ -1,0 +1,10 @@
+$LANGUAGE	English (United Kingdom)
+$FORMNAME	ServerPropertiesProvider
+Please specify server IP adress or domain	Please specify server IP adress or domain!
+Please specify server PORT	Please specify server PORT
+Can't establish connection with given parameters.	Can't establish connection with given parameters.
+Confirm	Confirm
+Please specify server props:	Please specify server props:
+Server IP or domain	Server IP or domain
+Server Port	Server Port
+Reload database	Reload database

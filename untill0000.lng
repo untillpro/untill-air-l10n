@@ -1,0 +1,134 @@
+$LANGUAGE	English (Default)
+$FORMNAME	TBLREditOrder
+Table select error: wrong table number is given ( {{tableNum}} )	
+Sales area not speсfied	
+Can't open table with number {{tableNum}}	
+Active bill empty	
+Wrong department id ({{id}}) is given	
+TBLREditOrder exception: wrong article id {{id}} is given	
+TBLREditOrder.TBLRMsgSendOption: option not specified	
+EditOrder exception: can't find currency with id {{currencyId}}	
+$FORMNAME	TBLRGetCondiment
+TBLRGetCondiment.TBLRMsgSendOption: option not specified	
+Can't add condiment with id {{id}}	
+$FORMNAME	TBLRGetDiscount
+Can't apply discount	
+$FORMNAME	TBLRGetDiscountAmount
+You should enter discount value	
+$FORMNAME	TBLRGetDiscountReason
+Can't add that reason	
+$FORMNAME	TBLRGetDiscountReasonText
+Please enter reason message	
+$FORMNAME	TBLRGetMessage
+Please enter message	
+Can't add message	
+$FORMNAME	TBLRGetOption
+Current item is not defined	
+TBLRGetOption.TBLRMsgSendOption: option not specified	
+Can't add option with id {{id}}	
+$FORMNAME	TBLRGetPrice
+You should enter price value	
+You should enter quantity value	
+$FORMNAME	TBLRGetSupplement
+TBLRGetSupplement.TBLRMsgSendOption: option not specified	
+Can't add supplement with id {{id}}	
+$FORMNAME	TBLRLogin
+No internet connection!	
+$FORMNAME	TBLRRestaurant
+Table select error: wrong table number is given	
+$FORMNAME	TBLRoot
+Device dataset not specified!	
+Please specify device name in device settings	
+This computer is not connected to your account.	
+$FORMNAME	OrderGetCondimentPopup
+Ok	
+Cancel	
+Select condiment	
+$FORMNAME	OrderGetDiscountPopup
+Cancel	
+Select discount	
+$FORMNAME	OrderGetDiscountReasonPopup
+Ok	
+Cancel	
+Select discount reason	
+$FORMNAME	OrderGetMessagePopup
+Ok	
+Cancel	
+$FORMNAME	OrderGetPricePopup
+Ok	
+Cancel	
+$FORMNAME	OrderGetQuantityPopup
+Ok	
+Cancel	
+Please enter quantity	
+Select void reason	
+$FORMNAME	OrderScreen
+Please input price for:	
+Please input discount amount:	
+Enter message:	
+Enter reason:	
+$FORMNAME	OrderGetSupplementPopup
+Ok	
+Cancel	
+Select supplement	
+$FORMNAME	POSDataProvider
+Problems occured while initSocket: {{error}}	
+Reconnect in {{seconds}} seconds	
+New version received from server: {{version}}. Updating.	
+$FORMNAME	ServerPropertiesProvider
+Please specify server IP adress or domain	
+Please specify server PORT	
+Can't establish connection with given parameters.	
+Confirm	
+Please specify server props:	
+Server IP or domain	
+Server Port	
+Reload database	
+$FORMNAME	LoginScreen
+Please login	
+$FORMNAME	SettingsScreen
+Settings page	
+$FORMNAME	UserSettingsScreen
+User profile	
+Logout	
+Close	
+$FORMNAME	FuncButtons
+Client	
+Cust. History	
+Search	
+History	
+Zoom	
+Select	
+Manual price	
+Confirm	
+Cancel	
+Condiment	
+Supplement	
+Repeat	
++1	
+-1	
+Void	
+Undo option	
+Message	
+Cash	
+Discount	
+Cancel discount	
+$FORMNAME	OrderInfoTextFields
+Table number	
+Waiter	
+Total sum	
+Options cost	
+Discount sum	
+Article course	
+$FORMNAME	POSSettings
+Articles block type	
+Left handed	
+Show order list toolbar	
+Functional panel: buttons per page	
+Functional panel: rows count	
+Rounded buttons	
+Article block rows count	
+Article block column count	
+Button round radius	
+Swipe direction	
+Reload backoffice	

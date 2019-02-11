@@ -1,0 +1,134 @@
+$LANGUAGE	Russian
+$FORMNAME	ServerPropertiesProvider
+Please specify server IP adress or domain	Пожалуйста, укадите IP адрес сервера
+Please specify server PORT	Пожалуйста, укажите порт подключения к серверу
+Can't establish connection with given parameters.	Не удается установить соединение
+Please specify server props:	Пожалуйста, задайте параметры сервера:
+Server IP or domain	IP или домен сервера
+Server Port	Порт
+Reload database	Перезагрузить БД
+Confirm	Подтвердить
+$FORMNAME	POSDataProvider
+Problems occured while initSocket: {{error}}	
+Reconnect in {{seconds}} seconds	
+New version received from server: {{version}}. Updating.	
+$FORMNAME	POSSettings
+Articles block type	Тип блока позиций
+Left handed	Для левшей
+Show order list toolbar	Показывать панель списка заказа
+Functional panel: buttons per page	Функциональная панель: кнопок на странице
+Functional panel: rows count	Функциональная панель: количество строк
+Rounded buttons	Закругленные кнопки
+Article block rows count	Кол-во строк в блоке позиций
+Article block column count	Кол-во столбцов в блоке позиций
+Button round radius	Радиус загругления
+Swipe direction	Направление свайпа
+Reload backoffice	Перезагрузить данные бэк-офиса
+$FORMNAME	TBLREditOrder
+Table select error: wrong table number is given ( {{tableNum}} )	Ошибка : невеправильный номер столика ( {{tableNum}} )
+Sales area not speсfied	Зона продаж не указана
+Can't open table with number {{tableNum}}	Невозможно открыть столик с номером {{tableNum}}
+Active bill empty	Активный счет неопределён
+Wrong department id ({{id}}) is given	Передан неправильный ID раздела меню
+TBLREditOrder exception: wrong article id {{id}} is given	TBLREditOrder: Передан неправильный ID позиции: {{id}}
+TBLREditOrder.TBLRMsgSendOption: option not specified	TBLREditOrder: Опция не определена
+EditOrder exception: can't find currency with id {{currencyId}}	TBLREditOrder: не удается найти валюту с ID {{currencyId}}
+$FORMNAME	TBLRGetCondiment
+TBLRGetCondiment.TBLRMsgSendOption: option not specified	TBLRGetCondiment: опция не указана
+Can't add condiment with id {{id}}	Не удается добавить приправу с ID {{id}}
+$FORMNAME	TBLRGetDiscount
+Can't apply discount	Не удалось применить скидку
+$FORMNAME	TBLRGetDiscountAmount
+You should enter discount value	Вы должны указать величину скидки
+$FORMNAME	TBLRGetDiscountReason
+Can't add that reason	Не удалось добавить причину
+$FORMNAME	TBLRGetDiscountReasonText
+Please enter reason message	Пожалуйста, введите текст причины
+$FORMNAME	TBLRGetMessage
+Please enter message	Пожалуйста введите сообщение
+Can't add message	Не удалось добавить сообщение
+$FORMNAME	TBLRGetOption
+Current item is not defined	Текущая позиция не определена
+TBLRGetOption.TBLRMsgSendOption: option not specified	TBLRGetOption.TBLRMsgSendOption: опция не указана
+Can't add option with id {{id}}	Не удалось добавить опцию с ID {{id}}
+$FORMNAME	TBLRGetPrice
+You should enter price value	Вы должны указать цену
+You should enter quantity value	Вы должны указать количество
+$FORMNAME	TBLRGetSupplement
+TBLRGetSupplement.TBLRMsgSendOption: option not specified	TBLRGetSupplement.TBLRMsgSendOption: опция не указана
+Can't add supplement with id {{id}}	Не удается добавить дополнение с ID {{id}}
+$FORMNAME	TBLRLogin
+No internet connection!	Отсутствует подключение к Internet
+$FORMNAME	TBLRRestaurant
+Table select error: wrong table number is given	Ошибка : невеправильный номер столика
+$FORMNAME	TBLRoot
+Device dataset not specified!	Датасет "Device" отсутствует
+Please specify device name in device settings	Пожалуйста укажите имя устройства в настройках устройства
+This computer is not connected to your account.	Данный компьютер не подключен к вашему аккаунту
+$FORMNAME	OrderGetCondimentPopup
+Ok	
+Cancel	Отмена
+Select condiment	Выберите приправу
+$FORMNAME	OrderGetDiscountPopup
+Cancel	Отмена
+Select discount	Выберите скидку
+$FORMNAME	OrderGetDiscountReasonPopup
+Ok	
+Cancel	Отмена
+Select discount reason	Выберите причину скидки
+$FORMNAME	OrderGetMessagePopup
+Ok	
+Cancel	Отмена
+$FORMNAME	OrderGetPricePopup
+Ok	
+Cancel	Отмена
+$FORMNAME	OrderGetQuantityPopup
+Ok	
+Cancel	Отмена
+Please enter quantity	Укажите количество
+Select void reason	Выберите причину отказа
+$FORMNAME	OrderScreen
+Please input price for:	Укажите цену для:
+Please input discount amount:	Укажите величину скидки:
+Enter message:	Введите сообщение:
+Enter reason:	Укажите причину:
+$FORMNAME	OrderGetSupplementPopup
+Ok	
+Cancel	Отмена
+Select supplement	Выберите добавку
+$FORMNAME	LoginScreen
+Please login	Авторизация
+$FORMNAME	SettingsScreen
+Settings page	Настройки
+$FORMNAME	UserSettingsScreen
+User profile	Профайл
+Logout	Выйти
+Close	Закрыть
+$FORMNAME	FuncButtons
+Client	Клиент
+Cust. History	История клиента
+Search	Поиск
+History	История
+Zoom	Масштаб
+Select	Режим выбора
+Manual price	Ручная цена
+Confirm	Подтвердить
+Cancel	Отменить
+Condiment	Приправа
+Supplement	Добавка
+Repeat	Повторить
++1	
+-1	
+Void	Отказ
+Undo option	Отменить опцию
+Message	Сообщение
+Cash	Наличка
+Discount	Скидки
+Cancel discount	Отменить скидку
+$FORMNAME	OrderInfoTextFields
+Table number	Номер столика
+Waiter	Официант
+Total sum	ИТОГО
+Options cost	Опций на
+Discount sum	Сумма скидки
+Article course	Курс
