@@ -34,6 +34,8 @@ TBLRGetSupplement.TBLRMsgSendOption: option not specified
 Can't add supplement with id {{id}}	
 $FORMNAME	TBLRLogin
 No internet connection!	
+$FORMNAME	TBLRPayment
+Wrong part number is given	
 $FORMNAME	TBLRRestaurant
 Table select error: wrong table number is given	
 $FORMNAME	TBLRoot
@@ -71,6 +73,26 @@ $FORMNAME	OrderGetSupplementPopup
 Ok	
 Cancel	
 Select supplement	
+$FORMNAME	PaymentFinButton
+Pay	
+$FORMNAME	PaymentScreenHeader
+Back	
+$FORMNAME	PaymentPartsItem
+Part №{{num}}	
+{{num}} of {{total}}	
+$FORMNAME	PaymentPartsItemLine
+Total:	
+Paid:	
+Outstanding	
+Tips	
+Client	
+Payer	
+Sit	
+$FORMNAME	PaymentsTotal
+Total	
+To pay	
+Received	
+Return	
 $FORMNAME	POSDataProvider
 Problems occured while initSocket: {{error}}	
 Reconnect in {{seconds}} seconds	
@@ -111,8 +133,20 @@ Void
 Undo option	
 Message	
 Cash	
+Pay	
 Discount	
 Cancel discount	
+$FORMNAME	PaymentFuncButtons
+Print proform	
+Split equal	
+Split by parts	
+Split item	
+Add client	
+Reverse split	
+Undo client	
+Cancel bill	
+Add tips	
+Remove tips	
 $FORMNAME	OrderInfoTextFields
 Table number	
 Waiter	
@@ -121,6 +155,8 @@ Options cost
 Discount sum	
 Article course	
 $FORMNAME	POSSettings
+Styles theme	
+Images theme	
 Articles block type	
 Left handed	
 Show order list toolbar	
