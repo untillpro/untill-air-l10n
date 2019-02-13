@@ -29,6 +29,11 @@ Can't add option with id {{id}}
 $FORMNAME	TBLRGetPrice
 You should enter price value	
 You should enter quantity value	
+$FORMNAME	TBLRGetSeat
+Wrong seat number is given - ${number}	
+$FORMNAME	TBLRGetSeatName
+You should enter seat name	
+Wrong seat number is given {{seat}}	
 $FORMNAME	TBLRGetSupplement
 TBLRGetSupplement.TBLRMsgSendOption: option not specified	
 Can't add supplement with id {{id}}	
@@ -64,11 +69,15 @@ Ok
 Cancel	
 Please enter quantity	
 Select void reason	
+$FORMNAME	OrderGetSeatPopup
+Cancel	
+Select seat	
 $FORMNAME	OrderScreen
 Please input price for:	
 Please input discount amount:	
 Enter message:	
 Enter reason:	
+Enter name:	
 $FORMNAME	OrderGetSupplementPopup
 Ok	
 Cancel	
@@ -87,7 +96,7 @@ Outstanding
 Tips	
 Client	
 Payer	
-Sit	
+Seat	
 $FORMNAME	PaymentsTotal
 Total	
 To pay	
@@ -136,6 +145,8 @@ Cash
 Pay	
 Discount	
 Cancel discount	
+Change seat	
+Seat name	
 $FORMNAME	PaymentFuncButtons
 Print proform	
 Split equal	
@@ -154,6 +165,8 @@ Total sum
 Options cost	
 Discount sum	
 Article course	
+Seat	
+Seat name	
 $FORMNAME	POSSettings
 Styles theme	
 Images theme	
