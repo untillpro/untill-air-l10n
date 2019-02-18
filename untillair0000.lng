@@ -86,6 +86,15 @@ $FORMNAME	PaymentFinButton
 Pay	
 $FORMNAME	PaymentScreenHeader
 Back	
+$FORMNAME	PaymentOrderListItem
+Select quantity	
+Deselect	
+$FORMNAME	PaymentOrderList
+Qnt.	
+Article	
+Price	
+Seat	
+Course	
 $FORMNAME	PaymentPartsItem
 Part №{{num}}	
 {{num}} of {{total}}	
@@ -142,11 +151,11 @@ Void
 Undo option	
 Message	
 Cash	
-Pay	
 Discount	
 Cancel discount	
 Change seat	
 Seat name	
+Pay	
 $FORMNAME	PaymentFuncButtons
 Print proform	
 Split equal	

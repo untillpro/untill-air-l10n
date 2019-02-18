@@ -1,0 +1,170 @@
+$LANGUAGE	Dutch (Netherlands)
+$FORMNAME	TBLREditOrder
+Table select error: wrong table number is given ( {{tableNum}} )	Verkeerd tafelnummer ({{tableNum}}) opgegeven 
+Sales area not speсfied	Verkoopzone niet opgegeven
+Can't open table with number {{tableNum}}	Kan tafel {{tableNum}} niet openen
+Active bill empty	Actieve transactie is leeg
+Wrong department id ({{id}}) is given	Verkeerd department ID ({{id}}) opgegeven
+TBLREditOrder exception: wrong article id {{id}} is given	Verkeerd artikel ID ({{id}}) opgegeven 
+TBLREditOrder.TBLRMsgSendOption: option not specified	Optie niet opgegeven
+EditOrder exception: can't find currency with id {{currencyId}}	Kan geen valuta vinden met ID {{currencyId}}
+$FORMNAME	TBLRGetCondiment
+TBLRGetCondiment.TBLRMsgSendOption: option not specified	Optie niet opgegeven
+Can't add condiment with id {{id}}	Kan condiment met ID {{id}} niet toevoegen
+$FORMNAME	TBLRGetDiscount
+Can't apply discount	Korting kan niet toegepast worden
+$FORMNAME	TBLRGetDiscountAmount
+You should enter discount value	Geef een kortingswaarde in
+$FORMNAME	TBLRGetDiscountReason
+Can't add that reason	Kan die reden niet toevoegen
+$FORMNAME	TBLRGetDiscountReasonText
+Please enter reason message	Voer reden bericht in
+$FORMNAME	TBLRGetMessage
+Please enter message	Voor een bericht in
+Can't add message	Kan bericht niet toevoegen
+$FORMNAME	TBLRGetOption
+Current item is not defined	Huidig item is niet gedefinieerd
+TBLRGetOption.TBLRMsgSendOption: option not specified	Optie niet gespecificeerd
+Can't add option with id {{id}}	Kan optie met ID {{id}} niet toevoegen
+$FORMNAME	TBLRGetPrice
+You should enter price value	Voer prijs in
+You should enter quantity value	Voer aantal in
+$FORMNAME	TBLRGetSupplement
+TBLRGetSupplement.TBLRMsgSendOption: option not specified	Optie niet gespecificeerd
+Can't add supplement with id {{id}}	Kan supplement met ID {{id}} niet toevoegen
+$FORMNAME	TBLRLogin
+No internet connection!	Geen internet verbinding!
+$FORMNAME	TBLRPayment
+Wrong part number is given	Verkeerd deel opgegeven
+$FORMNAME	TBLRRestaurant
+Table select error: wrong table number is given	Verkeerd tafelnummer opgegeven
+$FORMNAME	TBLRoot
+Device dataset not specified!	Toestel dataset niet gespecificeerd!
+Please specify device name in device settings	Geef het toestelnaam op in de instellingen
+This computer is not connected to your account.	Deze computer is niet verbonden met uw account.
+$FORMNAME	OrderGetCondimentPopup
+Ok	Ok
+Cancel	Annuleer
+Select condiment	Selecteer condiment
+$FORMNAME	OrderGetDiscountPopup
+Cancel	Annuleer
+Select discount	Selecteer korting
+$FORMNAME	OrderGetDiscountReasonPopup
+Ok	Ok
+Cancel	Annuleer
+Select discount reason	Selecteer kortingsreden
+$FORMNAME	OrderGetMessagePopup
+Ok	Ok
+Cancel	Annuleer
+$FORMNAME	OrderGetPricePopup
+Ok	Ok
+Cancel	Annuleer
+$FORMNAME	OrderGetQuantityPopup
+Ok	Ok
+Cancel	Annuleer
+Please enter quantity	Voer aantal in
+Select void reason	Selecteer annulatie reden
+$FORMNAME	OrderScreen
+Please input price for:	Voer prijs in voor:
+Please input discount amount:	Voer kortingsbedrag in:
+Enter message:	Voer bericht in:
+Enter reason:	Voer reden in:
+$FORMNAME	OrderGetSupplementPopup
+Ok	Ok
+Cancel	Annuleer
+Select supplement	Selecteer supplement
+$FORMNAME	PaymentFinButton
+Pay	Betalen
+$FORMNAME	PaymentScreenHeader
+Back	Terug
+$FORMNAME	PaymentPartsItem
+Part №{{num}}	Deel №{{num}}
+{{num}} of {{total}}	{{num}} van {{total}}
+$FORMNAME	PaymentPartsItemLine
+Total:	Totaal:
+Paid:	Betaald:
+Outstanding	Openstaand
+Tips	Tips
+Client	Klant
+Payer	Betaler
+Sit	Stoel
+$FORMNAME	PaymentsTotal
+Total	Totaal
+To pay	Te betalen
+Received	Ontvangen
+Return	Terug
+$FORMNAME	POSDataProvider
+Problems occured while initSocket: {{error}}	Problemen opgetreden tijdens initSocket: {{error}}
+Reconnect in {{seconds}} seconds	Verbind opnieuw in {{seconds}} seconden
+New version received from server: {{version}}. Updating.	Nieuwe versie ontvangen van server: {{version}}. Bijwerken.
+$FORMNAME	ServerPropertiesProvider
+Please specify server IP adress or domain	Voer het IP-adres of domein van de server in
+Please specify server PORT	Specifier server poort
+Can't establish connection with given parameters.	Kan geen verbinding tot stand brengen met opgegeven parameters.
+Confirm	Bevestig
+Please specify server props:	Voer de servereigenshappen in
+Server IP or domain	Server IP of domein
+Server Port	Server poort
+Reload database	Herlaad database
+$FORMNAME	LoginScreen
+Please login	Log in
+$FORMNAME	SettingsScreen
+Settings page	Instellingenpagina
+$FORMNAME	UserSettingsScreen
+User profile	Gebruikersprofiel
+Logout	Uitloggen
+Close	Sluiten
+$FORMNAME	FuncButtons
+Client	Klant
+Cust. History	Klant geschiedenis
+Search	Zoeken
+History	Geschiedenis
+Zoom	Zoom
+Select	Selecteer
+Manual price	Manuele prijs
+Confirm	Bevestig
+Cancel	Annuleer
+Condiment	Condiment
+Supplement	Supplement
+Repeat	Herhaal
++1	+1
+-1	-1
+Void	Annuleer
+Undo option	Optie ongedaan maken
+Message	Bericht
+Cash	Contant
+Pay	Betalen
+Discount	Korting
+Cancel discount	Annuleer korting
+$FORMNAME	PaymentFuncButtons
+Print proform	Print proforma
+Split equal	Gelijk splitsen
+Split by parts	Splits in delen
+Split item	Splits artikel
+Add client	Klant toevoegen
+Reverse split	Splitsing ongedaan maken
+Undo client	Klant ongedaan maken
+Cancel bill	Annuleer rekening
+Add tips	Tips toevoegen
+Remove tips	Verwijder tips
+$FORMNAME	OrderInfoTextFields
+Table number	Tafelnummer
+Waiter	Kelner
+Total sum	Totaal
+Options cost	Totaal opties
+Discount sum	Totaal korting
+Article course	Gang artikel
+$FORMNAME	POSSettings
+Styles theme	Stijl thema
+Images theme	Afbeeldingen thema
+Articles block type	Artikelen blok type
+Left handed	Linkshandig
+Show order list toolbar	Toon bestellijst toolbar
+Functional panel: buttons per page	Funtioneel paneel: Knoppen per pagina
+Functional panel: rows count	Funtioneel paneel: Aantal rijen
+Rounded buttons	Afgeronde knoppen
+Article block rows count	Aantal rijen artikelen blok
+Article block column count	Aantal kolommen artikelen blok
+Button round radius	Knop hoekradius
+Swipe direction	Veeg richting
+Reload backoffice	Herlaad backoffice
