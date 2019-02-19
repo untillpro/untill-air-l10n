@@ -24,6 +24,8 @@ Article block column count	Кол-во столбцов в блоке позиц
 Button round radius	Радиус загругления
 Swipe direction	Направление свайпа
 Reload backoffice	Перезагрузить данные бэк-офиса
+Styles theme	Тема стилей
+Images theme	Тема изображений
 $FORMNAME	TBLREditOrder
 Table select error: wrong table number is given ( {{tableNum}} )	Ошибка : невеправильный номер столика ( {{tableNum}} )
 Sales area not speсfied	Зона продаж не указана
@@ -66,24 +68,24 @@ Device dataset not specified!	Датасет "Device" отсутствует
 Please specify device name in device settings	Пожалуйста укажите имя устройства в настройках устройства
 This computer is not connected to your account.	Данный компьютер не подключен к вашему аккаунту
 $FORMNAME	OrderGetCondimentPopup
-Ok	
+Ok	Ок
 Cancel	Отмена
 Select condiment	Выберите приправу
 $FORMNAME	OrderGetDiscountPopup
 Cancel	Отмена
 Select discount	Выберите скидку
 $FORMNAME	OrderGetDiscountReasonPopup
-Ok	
+Ok	Ок
 Cancel	Отмена
 Select discount reason	Выберите причину скидки
 $FORMNAME	OrderGetMessagePopup
-Ok	
+Ok	Ок
 Cancel	Отмена
 $FORMNAME	OrderGetPricePopup
-Ok	
+Ok	Ок
 Cancel	Отмена
 $FORMNAME	OrderGetQuantityPopup
-Ok	
+Ok	Ок
 Cancel	Отмена
 Please enter quantity	Укажите количество
 Select void reason	Выберите причину отказа
@@ -92,8 +94,9 @@ Please input price for:	Укажите цену для:
 Please input discount amount:	Укажите величину скидки:
 Enter message:	Введите сообщение:
 Enter reason:	Укажите причину:
+Enter name:	Введите имя:
 $FORMNAME	OrderGetSupplementPopup
-Ok	
+Ok	Ок
 Cancel	Отмена
 Select supplement	Выберите добавку
 $FORMNAME	LoginScreen
@@ -125,6 +128,9 @@ Message	Сообщение
 Cash	Наличка
 Discount	Скидки
 Cancel discount	Отменить скидку
+Change seat	Изменить место
+Seat name	Задать имя для места
+Pay	Оплатить
 $FORMNAME	OrderInfoTextFields
 Table number	Номер столика
 Waiter	Официант
@@ -132,3 +138,62 @@ Total sum	ИТОГО
 Options cost	Опций на
 Discount sum	Сумма скидки
 Article course	Курс
+Seat	Место
+Seat name	Имя места
+$FORMNAME	TBLRGetSeat
+Wrong seat number is given - {{number}}	Неправильный номер столика - {{number}}
+$FORMNAME	TBLRGetSeatName
+You should enter seat name	Вы должны указать имя
+Wrong seat number is given {{seat}}	Неправильный номер места - {{seat}}
+$FORMNAME	TBLRPayment
+Wrong part number is given	Неправильный идентификатор части
+$FORMNAME	OrderListFields
+Price	Цена
+Name	Наименование
+Qnt.	Кол-во
+Course	Курс
+Seat	Место
+Summ	Сумма
+$FORMNAME	OrderGetSeatPopup
+Cancel	Отмена
+Select seat	Выбрать место
+$FORMNAME	PaymentFinButton
+Pay	Оплатить
+$FORMNAME	PaymentScreenHeader
+Back	Назад
+$FORMNAME	PaymentOrderListItem
+Select quantity	Выбрать
+Deselect	Отменить
+$FORMNAME	PaymentOrderList
+Qnt.	Кол-во
+Article	Наименование
+Price	Цена
+Seat	Место
+Course	Курс
+$FORMNAME	PaymentPartsItem
+Part №{{num}}	Часть №{{num}}
+{{num}} of {{total}}	{{num}} из {{total}}
+$FORMNAME	PaymentPartsItemLine
+Total:	ИТОГО:
+Paid:	Оплачено:
+Outstanding	К оплате:
+Tips	Чаевые
+Client	Клиент
+Payer	Плательщик
+Seat	Место
+$FORMNAME	PaymentsTotal
+Total	Итого
+To pay	К оплате
+Received	Получено
+Return	Возврат
+$FORMNAME	PaymentFuncButtons
+Print proform	Печать проформы
+Split equal	Разделить поровну
+Split by parts	Разделить по частям
+Split item	Разделить позицию
+Add client	Добавить клиента
+Reverse split	Отменить разделение
+Undo client	Отменить клиента
+Cancel bill	Отменить часть
+Add tips	Добавить чаевые
+Remove tips	Отменить чаевые

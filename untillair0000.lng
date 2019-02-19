@@ -30,7 +30,7 @@ $FORMNAME	TBLRGetPrice
 You should enter price value	
 You should enter quantity value	
 $FORMNAME	TBLRGetSeat
-Wrong seat number is given - ${number}	
+Wrong seat number is given - {{number}}	
 $FORMNAME	TBLRGetSeatName
 You should enter seat name	
 Wrong seat number is given {{seat}}	
@@ -40,6 +40,8 @@ Can't add supplement with id {{id}}
 $FORMNAME	TBLRLogin
 No internet connection!	
 $FORMNAME	TBLRPayment
+No payment part selected	
+You can't change finalized parts	
 Wrong part number is given	
 $FORMNAME	TBLRRestaurant
 Table select error: wrong table number is given	
@@ -47,6 +49,27 @@ $FORMNAME	TBLRoot
 Device dataset not specified!	
 Please specify device name in device settings	
 This computer is not connected to your account.	
+$FORMNAME	ModalGetClient
+Clients not found.	
+$FORMNAME	ModalGetClientPopup
+Cancel	
+$FORMNAME	ModalGetMessagePopup
+Ok	
+Cancel	
+$FORMNAME	ModalGetPricePopup
+Ok	
+Cancel	
+$FORMNAME	ModalGetQuantityPopup
+Ok	
+Cancel	
+Please enter quantity	
+$FORMNAME	OrderListFields
+Price	
+Name	
+Qnt.	
+Course	
+Seat	
+Summ	
 $FORMNAME	OrderGetCondimentPopup
 Ok	
 Cancel	
@@ -58,20 +81,13 @@ $FORMNAME	OrderGetDiscountReasonPopup
 Ok	
 Cancel	
 Select discount reason	
-$FORMNAME	OrderGetMessagePopup
-Ok	
-Cancel	
-$FORMNAME	OrderGetPricePopup
-Ok	
-Cancel	
-$FORMNAME	OrderGetQuantityPopup
-Ok	
-Cancel	
-Please enter quantity	
-Select void reason	
 $FORMNAME	OrderGetSeatPopup
 Cancel	
 Select seat	
+$FORMNAME	OrderGetQuantityPopup
+Ok	
+Cancel	
+Select void reason	
 $FORMNAME	OrderScreen
 Please input price for:	
 Please input discount amount:	
@@ -86,9 +102,6 @@ $FORMNAME	PaymentFinButton
 Pay	
 $FORMNAME	PaymentScreenHeader
 Back	
-$FORMNAME	PaymentOrderListItem
-Select quantity	
-Deselect	
 $FORMNAME	PaymentOrderList
 Qnt.	
 Article	
