@@ -1,4 +1,6 @@
 $LANGUAGE	English (Default)
+$FORMNAME	PaymentPart
+Payment part №{{number}} not paid	
 $FORMNAME	TBLREditOrder
 Table select error: wrong table number is given ( {{tableNum}} )	
 Sales area not speсfied	
@@ -11,6 +13,8 @@ EditOrder exception: can't find currency with id {{currencyId}}
 $FORMNAME	TBLRGetCondiment
 TBLRGetCondiment.TBLRMsgSendOption: option not specified	
 Can't add condiment with id {{id}}	
+$FORMNAME	TBLRGetCourse
+Can select course with id {{courseId}}	
 $FORMNAME	TBLRGetDiscount
 Can't apply discount	
 $FORMNAME	TBLRGetDiscountAmount
@@ -19,6 +23,10 @@ $FORMNAME	TBLRGetDiscountReason
 Can't add that reason	
 $FORMNAME	TBLRGetDiscountReasonText
 Please enter reason message	
+$FORMNAME	TBLRGetPrice
+You should enter parts number	
+You should enter price value	
+You should enter quantity value	
 $FORMNAME	TBLRGetMessage
 Please enter message	
 Can't add message	
@@ -26,23 +34,36 @@ $FORMNAME	TBLRGetOption
 Current item is not defined	
 TBLRGetOption.TBLRMsgSendOption: option not specified	
 Can't add option with id {{id}}	
-$FORMNAME	TBLRGetPrice
-You should enter price value	
-You should enter quantity value	
+$FORMNAME	TBLRGetPayer
+Please enter payer name	
+$FORMNAME	TBLRGetPayment
+Can't apply payment method with id {{paymentId}}	
+$FORMNAME	TBLRGetpayment
+You should enter amount	
 $FORMNAME	TBLRGetSeat
 Wrong seat number is given - {{number}}	
 $FORMNAME	TBLRGetSeatName
 You should enter seat name	
 Wrong seat number is given {{seat}}	
+$FORMNAME	TBLRGetSplitAmount
+You should enter part amount	
 $FORMNAME	TBLRGetSupplement
 TBLRGetSupplement.TBLRMsgSendOption: option not specified	
 Can't add supplement with id {{id}}	
+$FORMNAME	TBLRGetTips
+You should enter tips value	
 $FORMNAME	TBLRLogin
 No internet connection!	
 $FORMNAME	TBLRPayment
 No payment part selected	
 You can't change finalized parts	
 Wrong part number is given	
+Nothing to finalize	
+No selected part to finalize	
+Nothing to pay for.	
+Can't apply payment method with id {{paymentId}}	
+Payment amount must be a positive number	
+No order items was selected	
 $FORMNAME	TBLRRestaurant
 Table select error: wrong table number is given	
 $FORMNAME	TBLRoot
@@ -51,7 +72,10 @@ Please specify device name in device settings
 This computer is not connected to your account.	
 $FORMNAME	ModalGetClient
 Clients not found.	
+Search for clients	
 $FORMNAME	ModalGetClientPopup
+Cancel	
+$FORMNAME	ModalGetCoursePopup
 Cancel	
 $FORMNAME	ModalGetMessagePopup
 Ok	
@@ -62,7 +86,8 @@ Cancel
 $FORMNAME	ModalGetQuantityPopup
 Ok	
 Cancel	
-Please enter quantity	
+$FORMNAME	ModalGetSeatPopup
+Cancel	
 $FORMNAME	OrderListFields
 Price	
 Name	
@@ -81,9 +106,6 @@ $FORMNAME	OrderGetDiscountReasonPopup
 Ok	
 Cancel	
 Select discount reason	
-$FORMNAME	OrderGetSeatPopup
-Cancel	
-Select seat	
 $FORMNAME	OrderGetQuantityPopup
 Ok	
 Cancel	
@@ -91,14 +113,26 @@ Select void reason
 $FORMNAME	OrderScreen
 Please input price for:	
 Please input discount amount:	
+Please enter quantity	
 Enter message:	
 Enter reason:	
+Select seat:	
 Enter name:	
 $FORMNAME	OrderGetSupplementPopup
 Ok	
 Cancel	
 Select supplement	
+$FORMNAME	Payment
+Enter quantity	
+Enter payer name	
+Enter tips value	
+Enter amount	
+Enter split amount	
+Enter parts number	
+Select course	
+Select seat:	
 $FORMNAME	PaymentFinButton
+Pay all	
 Pay	
 $FORMNAME	PaymentScreenHeader
 Back	
@@ -114,6 +148,7 @@ Part №{{num}}
 $FORMNAME	PaymentPartsItemLine
 Total:	
 Paid:	
+Return	
 Outstanding	
 Tips	
 Client	
@@ -171,15 +206,19 @@ Seat name
 Pay	
 $FORMNAME	PaymentFuncButtons
 Print proform	
+Split by items	
 Split equal	
 Split by parts	
+Split by seat	
+Split by course	
 Split item	
 Add client	
 Reverse split	
 Undo client	
-Cancel bill	
+Cancel part	
 Add tips	
 Remove tips	
+Add payer	
 $FORMNAME	OrderInfoTextFields
 Table number	
 Waiter	
