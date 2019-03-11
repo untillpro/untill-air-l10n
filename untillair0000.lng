@@ -1,6 +1,7 @@
 $LANGUAGE	English (Default)
 $FORMNAME	PaymentPart
-Payment part №{{number}} not paid	
+Payment part №{{number}} of the paid	
+Payment part №{{number}} don't have any payment methods	
 $FORMNAME	TBLREditOrder
 Table select error: wrong table number is given ( {{tableNum}} )	
 Sales area not speсfied	
@@ -9,6 +10,7 @@ Active bill empty
 Wrong department id ({{id}}) is given	
 TBLREditOrder exception: wrong article id {{id}} is given	
 TBLREditOrder.TBLRMsgSendOption: option not specified	
+Can't apply discount to an order that has paid parts	
 EditOrder exception: can't find currency with id {{currencyId}}	
 $FORMNAME	TBLRGetCondiment
 TBLRGetCondiment.TBLRMsgSendOption: option not specified	
@@ -139,9 +141,9 @@ Back
 $FORMNAME	PaymentOrderList
 Qnt.	
 Article	
-Price	
 Seat	
 Course	
+Price	
 $FORMNAME	PaymentPartsItem
 Part №{{num}}	
 {{num}} of {{total}}	
@@ -242,3 +244,5 @@ Article block column count
 Button round radius	
 Swipe direction	
 Reload backoffice	
+$FORMNAME	POS
+Can't find any cash payment method in database	
